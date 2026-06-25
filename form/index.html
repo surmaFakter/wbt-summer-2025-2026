@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <h1>Contact Me</h1>
+
+    <form method="post">
+        <fieldset>
+            <legend>Contact Me Form</legend>
+
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="firstName"
+                   placeholder="Enter your first name" required>
+            <br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lastName"
+                   placeholder="Enter your last name" required>
+            <br><br>
+
+            <label>Gender:</label>
+            <br><br>
+
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <br><br>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company"
+                   placeholder="Enter company name">
+            <br><br>
+
+            <label>Reason of Contact:</label>
+            <br><br>
+
+            <input type="radio" id="projects" name="ROC" value="Projects">
+            <label for="projects">Projects</label>
+            <br><br>
+
+            <input type="radio" id="thesis" name="ROC" value="Thesis">
+            <label for="thesis">Thesis</label>
+            <br><br>
+
+            <input type="radio" id="job" name="ROC" value="Job">
+            <label for="job">Job</label>
+            <br><br>
+
+            <label>Topics:</label>
+            <br><br>
+
+            <input type="checkbox" id="web" name="topics[]" value="Web Development">
+            <label for="web">Web Development</label>
+            <br><br>
+
+            <input type="checkbox" id="mobile" name="topics[]" value="Mobile Development">
+            <label for="mobile">Mobile Development</label>
+            <br><br>
+
+            <input type="checkbox" id="ai" name="topics[]" value="AI/ML Development">
+            <label for="ai">AI/ML Development</label>
+            <br><br>
+
+            <label for="consultationDate">Consultation Date:</label>
+            <input type="date" id="consultationDate"
+                   name="consultationDate" required>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+            <br><br>
+
+            <a href="../index.html">Back to Home</a>
+        </fieldset>
+    </form>
+
+</body>
+</html>
