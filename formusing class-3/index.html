@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Account</title>
+
+</head>
+<body>
+
+<div >
+
+    <h1>Create your account</h1>
+    <p>Join us in a couple of steps.</p>
+
+    <form>
+
+        <div class="form-group">
+            <label for="fullname">Full name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Jane Doe" required>
+        </div>
+
+        <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="28" min="1" max="120" required>
+        </div>
+
+        <div class="form-group">
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="********" required>
+        </div>
+
+        <div class="form-group">
+            <label>Preferred Contact</label><br>
+
+            <input type="radio" id="emailContact" name="contact" value="Email">
+            <label for="emailContact">Email</label>
+
+            <input type="radio" id="phoneContact" name="contact" value="Phone">
+            <label for="phoneContact">Phone</label>
+
+            <input type="radio" id="smsContact" name="contact" value="SMS">
+            <label for="smsContact">SMS</label>
+        </div>
+
+        <div class="button-group">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
